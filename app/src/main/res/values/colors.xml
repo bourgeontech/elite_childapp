@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#2f5183</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+
+    <color name="gray">#3C3B3B</color>
+    <color name="colorLine">#C3C3C3</color>
+
+    <color name="colorLinee">#EEE</color>
+
+
+    <color name="colorBack">#EEE</color>
+    <color name="lightcolorLine">#EEEBEB</color>
+    <color name="colorGrey">#F3F3F3</color>
+    <color name="colorTile">#DFFDFCFC</color>
+    <color name="colorTest">#DF0756F7</color>
+    <color name="colorBlue">#1C3788</color>
+
+    <color name="linecolorapp">#585858</color>
+    <color name="colorlightLine">#E4E1E1</color>
+    <color name="example_5_page_bg_color">#0E0E0E</color>
+    <color name="example_5_item_view_bg_color">#1B1B1B</color>
+    <color name="example_5_toolbar_color">#282828</color>
+    <color name="example_5_text_grey">#bdbdbd</color>
+    <color name="example_5_text_grey_light">#616161</color>
+
+    <color name="bluecolor">#2f5183</color>
+
+    <color name="failedcolor">#fac1c1</color>
+    <color name="passedcolor">#54e379</color>
+    <color name="colorGreen">#62F523</color>
+
+    <color name="colorLineTwo">#EEE</color>
+    <color name="colorSkyBlue">#2f489c</color>
+    <color name="colorSkBlue">#E4F2FD</color>
+    <color name="colorDarkSkyBlue">#2f489c</color>
+    <color name="colorDark">#168801</color>
+    <color name="colorBgUser">#093565</color>
+
+    <color name="colorVideo">#fc4710</color>
+    <color name="colorFile">#2f489c</color>
+    <color name="colorAudio">#2f489c</color>
+
+    <color name="colorappGreen">#40ac51</color>
+    <color name="colorappBlue">#2f489c</color>
+
+
+
+</resources>

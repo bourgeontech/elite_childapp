@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/rammo/Bourgeon_Projects/child-app/app/src/main/res/drawable/background_profile.xml" value="0.2265" />
+        <entry key="..\:/Users/rammo/Bourgeon_Projects/child-app/app/src/main/res/drawable/bg_regular.xml" value="0.2265" />
+        <entry key="..\:/Users/rammo/Bourgeon_Projects/child-app/app/src/main/res/drawable/buttion_gradient.xml" value="0.2265" />
+        <entry key="..\:/Users/rammo/Bourgeon_Projects/child-app/app/src/main/res/drawable/circle.xml" value="0.166" />
+        <entry key="..\:/Users/rammo/Bourgeon_Projects/child-app/app/src/main/res/drawable/circle_layout.xml" value="0.166" />
+        <entry key="..\:/Users/rammo/Bourgeon_Projects/child-app/app/src/main/res/drawable/ic_email.xml" value="0.2265" />
+        <entry key="..\:/Users/rammo/Bourgeon_Projects/child-app/app/src/main/res/drawable/ic_lock.xml" value="0.2265" />
+        <entry key="..\:/Users/rammo/Bourgeon_Projects/child-app/app/src/main/res/drawable/username_background.xml" value="0.2265" />
+        <entry key="..\:/Users/rammo/Bourgeon_Projects/child-app/app/src/main/res/drawable/white_space.xml" value="0.2265" />
+        <entry key="..\:/Users/rammo/Bourgeon_Projects/child-app/app/src/main/res/font/raleway_light.xml" value="0.284375" />
+        <entry key="..\:/Users/rammo/Bourgeon_Projects/child-app/app/src/main/res/font/raleway_medium.xml" value="0.284375" />
+        <entry key="..\:/Users/rammo/Bourgeon_Projects/child-app/app/src/main/res/font/raleway_semibold.xml" value="0.284375" />
+        <entry key="..\:/Users/rammo/Bourgeon_Projects/child-app/app/src/main/res/layout/activity_forgot.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/rammo/Bourgeon_Projects/child-app/app/src/main/res/layout/activity_login.xml" value="0.536" />
+        <entry key="..\:/Users/rammo/Bourgeon_Projects/child-app/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/rammo/Bourgeon_Projects/child-app/app/src/main/res/layout/activity_splash.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/rammo/Bourgeon_Projects/child-app/app/src/main/res/layout/audio_dialog.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/rammo/Bourgeon_Projects/child-app/app/src/main/res/layout/audio_view.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/rammo/Bourgeon_Projects/child-app/app/src/main/res/layout/audio_view_new.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/rammo/Bourgeon_Projects/child-app/app/src/main/res/layout/calendar_day_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/rammo/Bourgeon_Projects/child-app/app/src/main/res/layout/content_forgot.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/rammo/Bourgeon_Projects/child-app/app/src/main/res/layout/dashboard_fragment.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/rammo/Bourgeon_Projects/child-app/app/src/main/res/layout/discussion_row.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/rammo/Bourgeon_Projects/child-app/app/src/main/res/layout/fragment_attendance.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/rammo/Bourgeon_Projects/child-app/app/src/main/res/layout/fragment_changepassword.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/rammo/Bourgeon_Projects/child-app/app/src/main/res/layout/fragment_circular.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/rammo/Bourgeon_Projects/child-app/app/src/main/res/layout/fragment_communication.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/rammo/Bourgeon_Projects/child-app/app/src/main/res/layout/fragment_docview.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/rammo/Bourgeon_Projects/child-app/app/src/main/res/layout/fragment_enquiry.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/rammo/Bourgeon_Projects/child-app/app/src/main/res/layout/fragment_exam_details.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/rammo/Bourgeon_Projects/child-app/app/src/main/res/layout/fragment_examdoc.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/rammo/Bourgeon_Projects/child-app/app/src/main/res/layout/fragment_examresult.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/rammo/Bourgeon_Projects/child-app/app/src/main/res/layout/fragment_file_details.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/rammo/Bourgeon_Projects/child-app/app/src/main/res/layout/fragment_get_examination.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/rammo/Bourgeon_Projects/child-app/app/src/main/res/layout/fragment_home_new.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/rammo/Bourgeon_Projects/child-app/app/src/main/res/layout/fragment_homework.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/rammo/Bourgeon_Projects/child-app/app/src/main/res/layout/fragment_list_dialog.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/rammo/Bourgeon_Projects/child-app/app/src/main/res/layout/fragment_online_class.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/rammo/Bourgeon_Projects/child-app/app/src/main/res/layout/fragment_profile.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/rammo/Bourgeon_Projects/child-app/app/src/main/res/layout/fragment_remark.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/rammo/Bourgeon_Projects/child-app/app/src/main/res/layout/fragment_replaylist.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/rammo/Bourgeon_Projects/child-app/app/src/main/res/layout/fragment_studentprofile.xml" value="0.264" />
+        <entry key="..\:/Users/rammo/Bourgeon_Projects/child-app/app/src/main/res/layout/fragment_subject_details.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/rammo/Bourgeon_Projects/child-app/app/src/main/res/layout/fragment_subject_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/rammo/Bourgeon_Projects/child-app/app/src/main/res/layout/fragment_timetable.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/rammo/Bourgeon_Projects/child-app/app/src/main/res/layout/fragment_upload_doc.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/rammo/Bourgeon_Projects/child-app/app/src/main/res/layout/fragment_view_discussion.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/rammo/Bourgeon_Projects/child-app/app/src/main/res/layout/item_list_footer.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/rammo/Bourgeon_Projects/child-app/app/src/main/res/layout/layout_audio.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/rammo/Bourgeon_Projects/child-app/app/src/main/res/layout/my_remark.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/rammo/Bourgeon_Projects/child-app/app/src/main/res/layout/replay_list_row.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/rammo/Bourgeon_Projects/child-app/app/src/main/res/layout/row_chapter_content.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/rammo/Bourgeon_Projects/child-app/app/src/main/res/layout/row_chapter_subject.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/rammo/Bourgeon_Projects/child-app/app/src/main/res/layout/row_circular_list_1.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/rammo/Bourgeon_Projects/child-app/app/src/main/res/layout/row_exam_result.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/rammo/Bourgeon_Projects/child-app/app/src/main/res/layout/row_homework_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/rammo/Bourgeon_Projects/child-app/app/src/main/res/layout/row_profile.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/rammo/Bourgeon_Projects/child-app/app/src/main/res/layout/row_profile_two.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/rammo/Bourgeon_Projects/child-app/app/src/main/res/layout/row_remark.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/rammo/Bourgeon_Projects/child-app/app/src/main/res/layout/row_time_table.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/rammo/Bourgeon_Projects/child-app/app/src/main/res/layout/row_uploaded_details.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/rammo/Bourgeon_Projects/child-app/app/src/main/res/layout/type_dialog.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/rammo/Bourgeon_Projects/child-app/app/src/main/res/layout/type_dialog_two.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

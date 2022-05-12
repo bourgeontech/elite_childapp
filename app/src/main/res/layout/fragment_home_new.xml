@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBgUser"
+    >
+
+    <LinearLayout
+        android:id="@+id/ivTop"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/colorBgUser"
+        android:orientation="vertical" />
+
+    <ImageView
+        android:id="@+id/ivPower"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_margin="20dp"
+        android:src="@drawable/ic_logout" />
+
+    <RelativeLayout
+        android:id="@+id/flTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:id="@+id/llFrame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <!--            <ImageView-->
+            <!--                android:layout_width="200dp"-->
+            <!--                android:layout_height="150dp"-->
+            <!--                android:layout_gravity="center"-->
+            <!--                android:src="@drawable/ic_photoframe" />-->
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:src="@drawable/ic_user" />
+
+        </FrameLayout>
+
+        <!--        <androidx.appcompat.widget.SwitchCompat-->
+        <!--            android:id="@+id/signinout"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_below="@+id/llFrame"-->
+        <!--            android:layout_marginLeft="80dp"-->
+        <!--            android:scaleX="1.5" />-->
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/llFrame"
+            android:orientation="vertical"
+
+            >
+
+
+            <TextView
+                android:id="@+id/tvParentname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="Child Name"
+                android:textAllCaps="true"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="10 B"
+                android:textAllCaps="true"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ivTop"
+        android:layout_marginTop="-34dp"
+        android:background="@drawable/white_space"
+        android:scaleType="centerCrop"
+        android:src="@drawable/back_1" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvHome"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ivbanner"
+        android:layout_below="@+id/ivTop"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="10dp"
+        android:background="@android:color/transparent"
+        app:layoutManager="com.google.android.flexbox.FlexboxLayoutManager" />
+
+
+    <Button
+        android:id="@+id/ivbanner"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/buttion_gradient"
+        android:drawableLeft="@drawable/ic_baseline_chevron_left"
+        android:drawableRight="@drawable/ic_arrow_right"
+        android:text="Click here to take a test"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold" />
+
+    <ProgressBar
+        android:id="@+id/pgProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+
+</RelativeLayout>

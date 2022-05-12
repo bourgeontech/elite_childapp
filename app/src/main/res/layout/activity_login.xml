@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/design"
+android:orientation="vertical">
+
+<!--<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="none">-->
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".4"
+            android:gravity="start"
+            android:visibility="visible">
+
+            <!--                <ImageView-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_gravity="start"-->
+            <!--                    android:scaleType="centerCrop" />-->
+
+            <!--                <ImageView-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="500dp"-->
+            <!--                    android:layout_centerInParent="true"-->
+            <!--                    android:padding="60dp"-->
+            <!--                    android:src="@drawable/logo_1" />-->
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".6"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="15dp"/>
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="318dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/trebuc"
+                android:gravity="start"
+                android:text="Login"
+                android:textColor="@color/colorappBlue"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"/>
+
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="318dp"
+                android:layout_height="20dp"
+                android:fontFamily="@font/trebuc"
+                android:gravity="start"
+                android:text="The Elite English School"
+                android:textColor="@color/colorappBlue"
+                android:textSize="12dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_gravity="center"
+                android:id="@+id/etUsername"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/username_background"
+                android:drawableLeft="@drawable/ic_email"
+                android:drawablePadding="20dp"
+                android:fontFamily="@font/trebuc"
+                android:hint="Username"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="15dp"
+                android:singleLine="true"
+                android:textColor="@color/colorBlack"
+                android:textColorHint="@color/colorBlack"
+                android:textSize="15sp" />
+
+
+            <EditText
+                android:layout_gravity="center"
+                android:id="@+id/etPassword"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/username_background"
+                android:drawableLeft="@drawable/ic_lock"
+                android:drawablePadding="20dp"
+                android:fontFamily="@font/trebuc"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="15dp"
+                android:singleLine="true"
+                android:textColor="@color/colorBlack"
+                android:textColorHint="@color/colorBlack"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tvForgotpasswd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="0dp"
+                android:fontFamily="@font/trebuc"
+                android:gravity="end"
+                android:text="Forgot Password ?"
+                android:textColor="#40ac51"></TextView>
+
+            <LinearLayout
+                android:id="@+id/llSignin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/buttion_gradient"
+                android:padding="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/trebuc"
+                    android:gravity="center"
+                    android:text="LogIn"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <!-- </ScrollView>-->
+
+</ScrollView>
+
+<ProgressBar
+    android:id="@+id/pgProgress"
+    android:layout_width="30dp"
+    android:layout_height="30dp"
+    android:layout_centerInParent="true"
+    android:visibility="gone"></ProgressBar>
+
+</RelativeLayout>

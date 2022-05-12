@@ -1,0 +1,3 @@
+include ':audioplayerview'
+include ':app', ':player'
+rootProject.name='Childapp'

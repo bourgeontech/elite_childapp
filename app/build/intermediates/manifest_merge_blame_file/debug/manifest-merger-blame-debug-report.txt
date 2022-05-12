@@ -1,0 +1,168 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.burgeon.parentapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="17"
+8-->C:\Users\rammo\Bourgeon_Projects\child-app\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\rammo\Bourgeon_Projects\child-app\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\rammo\Bourgeon_Projects\child-app\app\src\main\AndroidManifest.xml:6:5-67
+11-->C:\Users\rammo\Bourgeon_Projects\child-app\app\src\main\AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+12-->C:\Users\rammo\Bourgeon_Projects\child-app\app\src\main\AndroidManifest.xml:7:5-70
+12-->C:\Users\rammo\Bourgeon_Projects\child-app\app\src\main\AndroidManifest.xml:7:22-68
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->C:\Users\rammo\Bourgeon_Projects\child-app\app\src\main\AndroidManifest.xml:8:5-80
+13-->C:\Users\rammo\Bourgeon_Projects\child-app\app\src\main\AndroidManifest.xml:8:22-77
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->C:\Users\rammo\Bourgeon_Projects\child-app\app\src\main\AndroidManifest.xml:9:5-81
+14-->C:\Users\rammo\Bourgeon_Projects\child-app\app\src\main\AndroidManifest.xml:9:22-78
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.android.exoplayer:exoplayer-core:2.11.5] C:\Users\rammo\.gradle\caches\transforms-2\files-2.1\30badb9be3e03e379ffd5b2938ef6cc1\jetified-exoplayer-core-2.11.5\AndroidManifest.xml:24:5-79
+15-->[com.google.android.exoplayer:exoplayer-core:2.11.5] C:\Users\rammo\.gradle\caches\transforms-2\files-2.1\30badb9be3e03e379ffd5b2938ef6cc1\jetified-exoplayer-core-2.11.5\AndroidManifest.xml:24:22-76
+16
+17    <application
+17-->C:\Users\rammo\Bourgeon_Projects\child-app\app\src\main\AndroidManifest.xml:11:5-44:19
+18        android:name="com.burgeon.parentapp.Application.Childapp"
+18-->C:\Users\rammo\Bourgeon_Projects\child-app\app\src\main\AndroidManifest.xml:12:9-66
+19        android:allowBackup="true"
+19-->C:\Users\rammo\Bourgeon_Projects\child-app\app\src\main\AndroidManifest.xml:13:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.2.0] C:\Users\rammo\.gradle\caches\transforms-2\files-2.1\7769d218502537a90b3c0d5247429b00\core-1.2.0\AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@drawable/logo_user"
+22-->C:\Users\rammo\Bourgeon_Projects\child-app\app\src\main\AndroidManifest.xml:14:9-43
+23        android:label="@string/app_name"
+23-->C:\Users\rammo\Bourgeon_Projects\child-app\app\src\main\AndroidManifest.xml:15:9-41
+24        android:requestLegacyExternalStorage="true"
+24-->C:\Users\rammo\Bourgeon_Projects\child-app\app\src\main\AndroidManifest.xml:20:9-52
+25        android:roundIcon="@drawable/logo_user"
+25-->C:\Users\rammo\Bourgeon_Projects\child-app\app\src\main\AndroidManifest.xml:16:9-48
+26        android:supportsRtl="true"
+26-->C:\Users\rammo\Bourgeon_Projects\child-app\app\src\main\AndroidManifest.xml:17:9-35
+27        android:testOnly="true"
+28        android:theme="@style/AppTheme"
+28-->C:\Users\rammo\Bourgeon_Projects\child-app\app\src\main\AndroidManifest.xml:18:9-40
+29        android:usesCleartextTraffic="true" >
+29-->C:\Users\rammo\Bourgeon_Projects\child-app\app\src\main\AndroidManifest.xml:19:9-44
+30        <activity
+30-->C:\Users\rammo\Bourgeon_Projects\child-app\app\src\main\AndroidManifest.xml:22:9-24:70
+31            android:name="com.burgeon.parentapp.Forgotpassword.ForgotActivity"
+31-->C:\Users\rammo\Bourgeon_Projects\child-app\app\src\main\AndroidManifest.xml:23:13-79
+32            android:label="@string/title_activity_forgot" />
+32-->C:\Users\rammo\Bourgeon_Projects\child-app\app\src\main\AndroidManifest.xml:24:13-58
+33        <activity
+33-->C:\Users\rammo\Bourgeon_Projects\child-app\app\src\main\AndroidManifest.xml:25:9-27:52
+34            android:name="com.burgeon.parentapp.MainActivity"
+34-->C:\Users\rammo\Bourgeon_Projects\child-app\app\src\main\AndroidManifest.xml:26:13-62
+35            android:screenOrientation="portrait" />
+35-->C:\Users\rammo\Bourgeon_Projects\child-app\app\src\main\AndroidManifest.xml:27:13-49
+36        <activity
+36-->C:\Users\rammo\Bourgeon_Projects\child-app\app\src\main\AndroidManifest.xml:28:9-31:15
+37            android:name="com.burgeon.parentapp.Login.LoginActivity"
+37-->C:\Users\rammo\Bourgeon_Projects\child-app\app\src\main\AndroidManifest.xml:29:13-69
+38            android:screenOrientation="portrait" />
+38-->C:\Users\rammo\Bourgeon_Projects\child-app\app\src\main\AndroidManifest.xml:30:13-49
+39        <activity
+39-->C:\Users\rammo\Bourgeon_Projects\child-app\app\src\main\AndroidManifest.xml:33:9-40:20
+40            android:name="com.burgeon.parentapp.Splash.SplashActivity"
+40-->C:\Users\rammo\Bourgeon_Projects\child-app\app\src\main\AndroidManifest.xml:34:13-71
+41            android:screenOrientation="portrait" >
+41-->C:\Users\rammo\Bourgeon_Projects\child-app\app\src\main\AndroidManifest.xml:35:13-49
+42            <intent-filter>
+42-->C:\Users\rammo\Bourgeon_Projects\child-app\app\src\main\AndroidManifest.xml:36:13-39:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->C:\Users\rammo\Bourgeon_Projects\child-app\app\src\main\AndroidManifest.xml:37:17-69
+43-->C:\Users\rammo\Bourgeon_Projects\child-app\app\src\main\AndroidManifest.xml:37:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->C:\Users\rammo\Bourgeon_Projects\child-app\app\src\main\AndroidManifest.xml:38:17-77
+45-->C:\Users\rammo\Bourgeon_Projects\child-app\app\src\main\AndroidManifest.xml:38:27-74
+46            </intent-filter>
+47        </activity>
+48
+49        <meta-data
+49-->C:\Users\rammo\Bourgeon_Projects\child-app\app\src\main\AndroidManifest.xml:41:9-43:57
+50            android:name="preloaded_fonts"
+50-->C:\Users\rammo\Bourgeon_Projects\child-app\app\src\main\AndroidManifest.xml:42:13-43
+51            android:resource="@array/preloaded_fonts" />
+51-->C:\Users\rammo\Bourgeon_Projects\child-app\app\src\main\AndroidManifest.xml:43:13-54
+52
+53        <activity
+53-->[com.github.adrielcafe:AndroidAudioRecorder:0.3.0] C:\Users\rammo\.gradle\caches\transforms-2\files-2.1\13189142f6d3e8b33a7001fffdb169f3\jetified-AndroidAudioRecorder-0.3.0\AndroidManifest.xml:12:9-15:54
+54            android:name="cafe.adriel.androidaudiorecorder.AudioRecorderActivity"
+54-->[com.github.adrielcafe:AndroidAudioRecorder:0.3.0] C:\Users\rammo\.gradle\caches\transforms-2\files-2.1\13189142f6d3e8b33a7001fffdb169f3\jetified-AndroidAudioRecorder-0.3.0\AndroidManifest.xml:13:13-82
+55            android:screenOrientation="portrait"
+55-->[com.github.adrielcafe:AndroidAudioRecorder:0.3.0] C:\Users\rammo\.gradle\caches\transforms-2\files-2.1\13189142f6d3e8b33a7001fffdb169f3\jetified-AndroidAudioRecorder-0.3.0\AndroidManifest.xml:14:13-49
+56            android:theme="@style/Theme.AppCompat" />
+56-->[com.github.adrielcafe:AndroidAudioRecorder:0.3.0] C:\Users\rammo\.gradle\caches\transforms-2\files-2.1\13189142f6d3e8b33a7001fffdb169f3\jetified-AndroidAudioRecorder-0.3.0\AndroidManifest.xml:15:13-51
+57        <activity
+57-->[ch.acra:acra:4.8.2] C:\Users\rammo\.gradle\caches\transforms-2\files-2.1\b5b7d598c315f8cd89c49082ac2d4da1\jetified-acra-4.8.2\AndroidManifest.xml:40:9-217
+58            android:name="org.acra.dialog.CrashReportDialog"
+58-->[ch.acra:acra:4.8.2] C:\Users\rammo\.gradle\caches\transforms-2\files-2.1\b5b7d598c315f8cd89c49082ac2d4da1\jetified-acra-4.8.2\AndroidManifest.xml:40:123-171
+59            android:excludeFromRecents="true"
+59-->[ch.acra:acra:4.8.2] C:\Users\rammo\.gradle\caches\transforms-2\files-2.1\b5b7d598c315f8cd89c49082ac2d4da1\jetified-acra-4.8.2\AndroidManifest.xml:40:19-52
+60            android:finishOnTaskLaunch="true"
+60-->[ch.acra:acra:4.8.2] C:\Users\rammo\.gradle\caches\transforms-2\files-2.1\b5b7d598c315f8cd89c49082ac2d4da1\jetified-acra-4.8.2\AndroidManifest.xml:40:53-86
+61            android:launchMode="singleInstance"
+61-->[ch.acra:acra:4.8.2] C:\Users\rammo\.gradle\caches\transforms-2\files-2.1\b5b7d598c315f8cd89c49082ac2d4da1\jetified-acra-4.8.2\AndroidManifest.xml:40:87-122
+62            android:theme="@android:style/Theme.Dialog" />
+62-->[ch.acra:acra:4.8.2] C:\Users\rammo\.gradle\caches\transforms-2\files-2.1\b5b7d598c315f8cd89c49082ac2d4da1\jetified-acra-4.8.2\AndroidManifest.xml:40:172-215
+63
+64        <service
+64-->[ch.acra:acra:4.8.2] C:\Users\rammo\.gradle\caches\transforms-2\files-2.1\b5b7d598c315f8cd89c49082ac2d4da1\jetified-acra-4.8.2\AndroidManifest.xml:42:9-113
+65            android:name="org.acra.sender.SenderService"
+65-->[ch.acra:acra:4.8.2] C:\Users\rammo\.gradle\caches\transforms-2\files-2.1\b5b7d598c315f8cd89c49082ac2d4da1\jetified-acra-4.8.2\AndroidManifest.xml:42:43-87
+66            android:exported="false"
+66-->[ch.acra:acra:4.8.2] C:\Users\rammo\.gradle\caches\transforms-2\files-2.1\b5b7d598c315f8cd89c49082ac2d4da1\jetified-acra-4.8.2\AndroidManifest.xml:42:18-42
+67            android:process=":acra" />
+67-->[ch.acra:acra:4.8.2] C:\Users\rammo\.gradle\caches\transforms-2\files-2.1\b5b7d598c315f8cd89c49082ac2d4da1\jetified-acra-4.8.2\AndroidManifest.xml:42:88-111
+68
+69        <activity
+69-->[com.droidninja:filepicker:2.2.1] C:\Users\rammo\.gradle\caches\transforms-2\files-2.1\62ca37918eb3d06dfaca4a675a051d5d\filepicker-2.2.1\AndroidManifest.xml:17:9-19:62
+70            android:name="droidninja.filepicker.FilePickerActivity"
+70-->[com.droidninja:filepicker:2.2.1] C:\Users\rammo\.gradle\caches\transforms-2\files-2.1\62ca37918eb3d06dfaca4a675a051d5d\filepicker-2.2.1\AndroidManifest.xml:18:13-68
+71            android:configChanges="orientation|screenSize" />
+71-->[com.droidninja:filepicker:2.2.1] C:\Users\rammo\.gradle\caches\transforms-2\files-2.1\62ca37918eb3d06dfaca4a675a051d5d\filepicker-2.2.1\AndroidManifest.xml:19:13-59
+72        <activity
+72-->[com.droidninja:filepicker:2.2.1] C:\Users\rammo\.gradle\caches\transforms-2\files-2.1\62ca37918eb3d06dfaca4a675a051d5d\filepicker-2.2.1\AndroidManifest.xml:20:9-22:62
+73            android:name="droidninja.filepicker.MediaDetailsActivity"
+73-->[com.droidninja:filepicker:2.2.1] C:\Users\rammo\.gradle\caches\transforms-2\files-2.1\62ca37918eb3d06dfaca4a675a051d5d\filepicker-2.2.1\AndroidManifest.xml:21:13-70
+74            android:configChanges="orientation|screenSize" />
+74-->[com.droidninja:filepicker:2.2.1] C:\Users\rammo\.gradle\caches\transforms-2\files-2.1\62ca37918eb3d06dfaca4a675a051d5d\filepicker-2.2.1\AndroidManifest.xml:22:13-59
+75
+76        <provider
+76-->[com.droidninja:filepicker:2.2.1] C:\Users\rammo\.gradle\caches\transforms-2\files-2.1\62ca37918eb3d06dfaca4a675a051d5d\filepicker-2.2.1\AndroidManifest.xml:24:9-32:20
+77            android:name="droidninja.filepicker.utils.FilePickerProvider"
+77-->[com.droidninja:filepicker:2.2.1] C:\Users\rammo\.gradle\caches\transforms-2\files-2.1\62ca37918eb3d06dfaca4a675a051d5d\filepicker-2.2.1\AndroidManifest.xml:25:13-74
+78            android:authorities="com.burgeon.parentapp.droidninja.filepicker.provider"
+78-->[com.droidninja:filepicker:2.2.1] C:\Users\rammo\.gradle\caches\transforms-2\files-2.1\62ca37918eb3d06dfaca4a675a051d5d\filepicker-2.2.1\AndroidManifest.xml:26:13-82
+79            android:exported="false"
+79-->[com.droidninja:filepicker:2.2.1] C:\Users\rammo\.gradle\caches\transforms-2\files-2.1\62ca37918eb3d06dfaca4a675a051d5d\filepicker-2.2.1\AndroidManifest.xml:27:13-37
+80            android:grantUriPermissions="true" >
+80-->[com.droidninja:filepicker:2.2.1] C:\Users\rammo\.gradle\caches\transforms-2\files-2.1\62ca37918eb3d06dfaca4a675a051d5d\filepicker-2.2.1\AndroidManifest.xml:28:13-47
+81            <meta-data
+81-->[com.droidninja:filepicker:2.2.1] C:\Users\rammo\.gradle\caches\transforms-2\files-2.1\62ca37918eb3d06dfaca4a675a051d5d\filepicker-2.2.1\AndroidManifest.xml:29:13-31:58
+82                android:name="android.support.FILE_PROVIDER_PATHS"
+82-->[com.droidninja:filepicker:2.2.1] C:\Users\rammo\.gradle\caches\transforms-2\files-2.1\62ca37918eb3d06dfaca4a675a051d5d\filepicker-2.2.1\AndroidManifest.xml:30:17-67
+83                android:resource="@xml/provider_paths" />
+83-->[com.droidninja:filepicker:2.2.1] C:\Users\rammo\.gradle\caches\transforms-2\files-2.1\62ca37918eb3d06dfaca4a675a051d5d\filepicker-2.2.1\AndroidManifest.xml:31:17-55
+84        </provider>
+85        <provider
+85-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rammo\.gradle\caches\transforms-2\files-2.1\556f7c7764bd4c1e29c33dd585095b1d\lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+86            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+86-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rammo\.gradle\caches\transforms-2\files-2.1\556f7c7764bd4c1e29c33dd585095b1d\lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+87            android:authorities="com.burgeon.parentapp.lifecycle-process"
+87-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rammo\.gradle\caches\transforms-2\files-2.1\556f7c7764bd4c1e29c33dd585095b1d\lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+88            android:exported="false"
+88-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rammo\.gradle\caches\transforms-2\files-2.1\556f7c7764bd4c1e29c33dd585095b1d\lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+89            android:multiprocess="true" />
+89-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rammo\.gradle\caches\transforms-2\files-2.1\556f7c7764bd4c1e29c33dd585095b1d\lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+90    </application>
+91
+92</manifest>

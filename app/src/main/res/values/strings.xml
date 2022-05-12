@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Elite Parent</string>
+    <string name="username_error">Username</string>
+    <string name="password_error">Password</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_forgot">ForgotActivity</string>
+    <string name="crash_toast_text">App Crashed</string>
+
+    <string name="customLoadingIcon">&#xe807;</string>
+    <string name="customPlayIcon">&#xe802;</string>
+    <string name="customStopIcon">&#xe803;</string>
+</resources>

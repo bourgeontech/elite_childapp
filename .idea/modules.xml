@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Childapp.iml" filepath="$PROJECT_DIR$/.idea/modules/Childapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Childapp.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Childapp.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/audioplayerview/Childapp.audioplayerview.iml" filepath="$PROJECT_DIR$/.idea/modules/audioplayerview/Childapp.audioplayerview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/player/Childapp.player.iml" filepath="$PROJECT_DIR$/.idea/modules/player/Childapp.player.iml" />
+    </modules>
+  </component>
+</project>

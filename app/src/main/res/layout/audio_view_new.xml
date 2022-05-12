@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llcontainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/linebackgroundwhite">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/audio_background"
+            android:padding="5dp">
+
+          <!--  <com.hugomatilla.audioplayerview.AudioPlayerView
+                android:id="@+id/playCustomFonts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:textSize="30dp"
+                app:loadingText="@string/customLoadingIcon"
+                app:playText="@string/customPlayIcon"
+                app:stopText="@string/customStopIcon" />-->
+        </FrameLayout>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
